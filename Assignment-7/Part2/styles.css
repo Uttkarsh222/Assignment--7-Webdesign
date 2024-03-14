@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.stopwatch-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#stopwatch-label {
+    font-size: 36px;
+    margin-bottom: 20px; 
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop-button {
+    background-color: #F44336;
+    color: white;
+}
+
+#reset-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#date-picker {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    cursor: pointer;
+    margin-top: 20px; 
+    display: inline-block; 
+    outline: none; 
+    transition: background-color 0.3s ease;
+}
+
+#date-picker:hover {
+    background-color: #e0e0e0; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    height:60px ;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+}
+
